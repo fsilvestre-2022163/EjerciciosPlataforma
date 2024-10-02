@@ -1,13 +1,13 @@
-package com.fsilvestre.h2SpringBoot;
+package com.fsilvestre.postgre;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class H2SpringBootApplication {
+public class PostgreApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(H2SpringBootApplication.class, args);
+		SpringApplication.run(PostgreApplication.class, args);
 	}
 
 }

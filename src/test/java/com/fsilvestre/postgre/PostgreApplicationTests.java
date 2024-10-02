@@ -1,10 +1,10 @@
-package com.fsilvestre.h2SpringBoot;
+package com.fsilvestre.postgre;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class H2SpringBootApplicationTests {
+class PostgreApplicationTests {
 
 	@Test
 	void contextLoads() {
